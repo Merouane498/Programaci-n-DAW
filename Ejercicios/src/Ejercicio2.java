@@ -23,6 +23,10 @@ public class Ejercicio2 {
 
         // Calcular el salario total
         System.out.println("Tu salario semanal es: " + salario + " euros");
+        
+        teclado.close();
+
+
 
     }
 }

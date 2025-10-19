@@ -7,7 +7,7 @@ public class Ejercicio1{
         LocalDateTime ahora = LocalDateTime.now();
         int hora = ahora.getHour(); //Cogemos la hora (de 00.00 a 23.00)
 
-        // Muestra el saludo(Buenos días,Buenas tardes,Buenas noches) según la hora
+        // Mostrar el saludo(Buenos días,Buenas tardes,Buenas noches) según la hora
         if (hora >= 6 && hora <= 12) {
             System.out.println("Buenos días");
         } else if (hora >= 13 && hora <= 20) {
@@ -16,7 +16,7 @@ public class Ejercicio1{
             System.out.println("Buenas noches");
         }
 
-        // Muestra la hora actual 
+        // Mostrar la hora actual 
          System.out.println("Hora actual: " + ahora.getHour() + ":" + ahora.getMinute() );
  
     }
