@@ -1,4 +1,3 @@
-// Ejercicio 6: Calcula la nómina según cargo, días de viaje y estado civil
 
 import java.util.Scanner;
 

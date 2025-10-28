@@ -1,4 +1,3 @@
-// Ejercicio 10: Cuenta cuántos dígitos pares e impares tiene un número
 
 import java.util.Scanner;
 
